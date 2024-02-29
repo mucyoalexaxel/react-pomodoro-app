@@ -2,7 +2,7 @@ repo_name: mucyoalexaxel/react-pomodoro-app
 report_id: a9e79326eb5c1f675715a5a92ba768ee
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:32:35+00:00'
+timestamp: '2024-02-29T18:54:53+00:00'
 requested_by: mucyoalexaxel
 provider: github
 branch: main
@@ -434,6 +434,13 @@ tools:
   last_updated_by: Alex Axel Mucyo
   last_updated_on: 2023-04-27 10:03:57.000000000 Z
   vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 4.5.2
   - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
       (//)
     cve_id: CVE-2023-34092
